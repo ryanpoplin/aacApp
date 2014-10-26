@@ -14,6 +14,7 @@
 		5A3AC25C19FC4CF0005A7235 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3AC25B19FC4CF0005A7235 /* Images.xcassets */; };
 		5A3AC25F19FC4CF0005A7235 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A3AC25D19FC4CF0005A7235 /* LaunchScreen.xib */; };
 		5A3AC26B19FC4CF1005A7235 /* aacAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AC26A19FC4CF1005A7235 /* aacAppTests.swift */; };
+		5A3AC27E19FCC609005A7235 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3AC27D19FCC609005A7235 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +40,7 @@
 		5A3AC26919FC4CF1005A7235 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A3AC26A19FC4CF1005A7235 /* aacAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aacAppTests.swift; sourceTree = "<group>"; };
 		5A3AC27419FC52CB005A7235 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		5A3AC27D19FCC609005A7235 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5A3AC27419FC52CB005A7235 /* MyPlayground.playground */,
 				5A3AC25119FC4CF0005A7235 /* AppDelegate.swift */,
 				5A3AC25619FC4CF0005A7235 /* ViewController.swift */,
+				5A3AC27D19FCC609005A7235 /* TableViewController.swift */,
 				5A3AC25819FC4CF0005A7235 /* Main.storyboard */,
 				5A3AC25B19FC4CF0005A7235 /* Images.xcassets */,
 				5A3AC25D19FC4CF0005A7235 /* LaunchScreen.xib */,
@@ -220,6 +223,7 @@
 				5A3AC25719FC4CF0005A7235 /* ViewController.swift in Sources */,
 				5A3AC25219FC4CF0005A7235 /* AppDelegate.swift in Sources */,
 				5A3AC25519FC4CF0005A7235 /* aacApp.xcdatamodeld in Sources */,
+				5A3AC27E19FCC609005A7235 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

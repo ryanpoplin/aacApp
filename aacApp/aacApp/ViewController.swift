@@ -10,15 +10,19 @@ import UIKit
 
 class ViewController: UIViewController, UITextViewDelegate {
     
+    // prop...
     var textView:UITextView?
     
+    // meth...
     override func viewDidAppear(animated:Bool) {
         super.viewDidAppear(animated)
         textView?.becomeFirstResponder()
     }
     
+    // prop...
     var saveShortcutButton:UIButton!
     
+    // meth...
     func saveShortcutButtonIsPressed(sender:UIButton) {
         
         let alert = UIAlertView()
@@ -29,16 +33,35 @@ class ViewController: UIViewController, UITextViewDelegate {
         
     }
     
+    // prop...
     var clearTextButton:UIButton!
     
+    // meth...
     func clearTextButtonIsPressed(sender:UIButton) {
         
         textView?.text = nil
         
     }
-
+    
+    var shortcutsButton:UIButton!
+    
+    func segueToShortcuts(sender:UIButton) {
+        
+        // ...
+        
+        // performSegueWithIdentifier("yourSegueIdentifier", sender:nil)
+        
+    }
+    
+    // meth...
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // make this a button generator function...
+        
+        /*func uiButtonGen() {
+            
+        }*/
         
         saveShortcutButton = UIButton.buttonWithType(.System) as? UIButton
         saveShortcutButton.frame = CGRect(x: 110, y: 240, width: 100, height: 44)
@@ -54,6 +77,13 @@ class ViewController: UIViewController, UITextViewDelegate {
         clearTextButton.backgroundColor = UIColor.grayColor()
         view.addSubview(clearTextButton)
         
+        shortcutsButton = UIButton.buttonWithType(.System) as? UIButton
+        shortcutsButton.frame = CGRect(x: 215, y: 240, width: 100, height: 44)
+        shortcutsButton.setTitle("Shortcuts", forState: .Normal)
+        shortcutsButton.addTarget(self, action: "segueToShortcuts:", forControlEvents: .TouchDown)
+        shortcutsButton.backgroundColor = UIColor.grayColor()
+        view.addSubview(shortcutsButton)
+        
         textView?.sizeToFit()
         textView?.layoutIfNeeded()
         textView = UITextView(frame: CGRect(x: 0, y: 0, width: 320, height: 220))
@@ -65,9 +95,14 @@ class ViewController: UIViewController, UITextViewDelegate {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
+    // meth...
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
 
 }

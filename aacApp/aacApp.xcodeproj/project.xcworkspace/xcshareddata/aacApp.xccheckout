@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>1EE4B656-3CC6-48D3-8DBC-F29EE93553E6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>aacApp</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>075244A664C4BDD4F14D7213DC6BBA26B37D11CB</key>
+		<string>github.com:ryanpoplin/aacApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>aacApp/aacApp.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>075244A664C4BDD4F14D7213DC6BBA26B37D11CB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:ryanpoplin/aacApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>075244A664C4BDD4F14D7213DC6BBA26B37D11CB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>075244A664C4BDD4F14D7213DC6BBA26B37D11CB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>aacApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>
